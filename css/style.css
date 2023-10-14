@@ -67,3 +67,16 @@ main {
 .cardsIndex i {
   font-size: 40px;
 }
+
+.cyberseguridadIndex img{
+width: 70%;
+}
+.cardCyberseguridad {
+  width: 450px;
+  height: 180px;  
+  
+}
+
+.cardCyberseguridad i {
+  font-size: 40px;
+}
