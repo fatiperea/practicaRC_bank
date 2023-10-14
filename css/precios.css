@@ -1,0 +1,21 @@
+.item
+{
+
+    float: left;
+}
+
+
+.ofertas
+{
+margin: 20px;
+margin-bottom: 20px;
+padding: 10px;
+
+}
+
+#precioResaltado{
+background-color: black;
+
+
+}
+
