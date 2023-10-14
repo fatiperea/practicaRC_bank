@@ -1,19 +1,24 @@
+body {
+    width: 100%;
+}
 .item
 {
 
-    float: left;
+    display: inline-block;
 }
 
+#logo{
+    font-family: 'Black Han Sans', Arial;
+  }
 
-.ofertas
-{
-margin: 20px;
-margin-bottom: 20px;
-padding: 10px;
 
+.ofertas {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90% !important;
+    text-align: center;
 }
 
 #precioResaltado{
 background-color: #0D6EFD;
 }
-
