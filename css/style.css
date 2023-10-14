@@ -52,3 +52,13 @@ main {
   height: 500px;
   object-fit: cover;
 }
+.cardIndex{
+  width: 400px;
+  height: 180px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 195, 195);
+}
+
+.cardsIndex i {
+  font-size: 40px;
+}
