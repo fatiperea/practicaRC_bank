@@ -37,17 +37,18 @@ main {
 #imgApple {
   width: 100%;
 }
+.img1Seguridad{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 @media screen and (max-width: 767px) {
   #usuariosFin {
     width: 300px;
     height: 150px;
   }
-  .img1Seguridad{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+  
 
  
 }
@@ -56,4 +57,35 @@ main {
 .imgCarouselIndex{
   height: 500px;
   object-fit: cover;
+}
+.cardIndex{
+  width: 400px;
+  height: 180px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 195, 195);
+}
+
+.cardsIndex i {
+  font-size: 40px;
+}
+
+.cyberseguridadIndex img{
+width: 70%;
+}
+.cardCyberseguridad {
+  width: 450px;
+  height: 180px;  
+  
+}
+
+.cardCyberseguridad i {
+  font-size: 40px;
+}
+
+.csi {
+  width: 200px;
+}
+
+.csi img {
+  width: 100%;
 }
