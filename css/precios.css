@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
   width: 100%;
 }
 .item {
@@ -10,6 +12,7 @@ body {
 }
 
 .ofertas {
+  display: flex;
   margin-bottom: 1px;
   padding: 10px;
   justify-content: space-between;
@@ -28,4 +31,10 @@ body {
 
 #padreofertas{
     justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .tituloItems {
+    justify-content: center;
+  }
 }
