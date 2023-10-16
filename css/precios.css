@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.item {
+  display: inline-block;
+}
+
+#logo {
+  font-family: "Black Han Sans", Arial;
+}
+
+.ofertas {
+  display: flex;
+  margin-bottom: 1px;
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#precioResaltado {
+  background-color: #0d6efd;
+  width: 25px;
+  height: 50px;
+}
+
+#padreofertas {
+  justify-content: space-between;
+}
+
+#img404 {
+  display: flex;
+}
+
+#boton404 {
+  font-size: 2em;
+ 
+}
+
+@media (max-width: 767px) {
+  #tituloItem {
+    justify-content: center;
+  }
+}
