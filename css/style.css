@@ -55,6 +55,11 @@ main {
   }
 }
 
+  #imgApple{
+    width: 80px;  
+    height: 70px;
+  }
+  
 .imgCarouselIndex {
   height: 500px;
   object-fit: cover;
