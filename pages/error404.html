@@ -35,7 +35,7 @@
 
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container-fluid centrar">
           <a class="navbar-brand" id="logo" href="../index.html">RollingBank</a>
           <button
             class="navbar-toggler"
@@ -93,8 +93,8 @@
       </div>
     </main>
     <footer class="bg-dark text-secondary py-4">
-      <div class="container">
-        <div class="row">
+      <div class="container centrar">
+        <div class="row d-flex justify-content-between">
           <h5 class="text-light" id="logo">
             RollingBank <i class="bi bi-facebook"></i>
             <i class="bi bi-instagram"> </i><i class="bi bi-twitter-x"></i>
@@ -104,21 +104,25 @@
             <h4>Navegación</h4>
             <ul class="list-unstyled">
               <li>
-                <a href="./error404.html" class="link-secondary"
+                <a href="./pages/quienesSomos.html" class="link-secondary"
                   >¿Quienes somos?</a
                 >
               </li>
               <li>
-                <a href="./error404.html" class="link-secondary">Precios</a>
+                <a href="./pages/precios.html" class="link-secondary"
+                  >Precios</a
+                >
               </li>
               <li>
-                <a href="./error404.html" class="link-secondary">Seguridad</a>
+                <a href="./pages/seguridad.html" class="link-secondary"
+                  >Seguridad</a
+                >
               </li>
               <li>
-                <a href="./error404.html" class="link-secondary">Ayuda</a>
+                <a href="./pages/error404.html" class="link-secondary">Ayuda</a>
               </li>
               <li>
-                <a href="./error404.html" class="link-secondary"
+                <a href="./pages/error404.html" class="link-secondary"
                   >Robo o extravío</a
                 >
               </li>
@@ -154,12 +158,16 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 text-lg-start" id="usuariosFin">
+          <div
+            class="col-12 col-md-6 col-lg-3 text-lg-start d-flex align-items-center"
+            id="usuariosFin"
+          >
             <img
               src="../img/usuariosfinancieros.png"
               alt="usuarios financieros"
             />
           </div>
+
           <div
             class="col-12 col-md-6 col-lg-3 text-lg-start d-flex flex-column align-content-between"
           >
@@ -177,5 +185,5 @@
         </div>
       </div>
     </footer>
-  </body>
+    </body>
 </html>
