@@ -13,14 +13,11 @@ body {
 
 .ofertas {
   display: flex;
-  margin-bottom: 1px;
   padding: 10px;
-  justify-content: space-between;
-  text-align: center;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-
+  justify-content:space-between ;
+  border-width: 0.5px;
+  border-style:solid ;
+  border-color: grey;
 }
 
 
