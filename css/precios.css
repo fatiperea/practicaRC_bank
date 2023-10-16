@@ -13,6 +13,25 @@ body {
 
 .ofertas {
   display: flex;
+
+  padding: 10px;
+  justify-content: space-between;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d5dbdb;
+}
+
+#precioResaltado {
+  text-align: center;
+  background-color: #0d6efd;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border-radius: 20%;
+}
+
+
   margin-bottom: 1px;
   padding: 10px;
   justify-content: space-between;
