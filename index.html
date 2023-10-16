@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="practica de git" />
-    <meta name="author" content="Fatima Perea" />
+    <meta
+      name="author"
+      content="Navbar y footer: Fatima Perea, Body: Adrian Chanampa"
+    />
     <meta name="keywords" content="git, github" />
 
     <link
@@ -26,7 +29,7 @@
 
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container-fluid centrar">
           <a class="navbar-brand" id="logo" href="./index.html">RollingBank</a>
           <button
             class="navbar-toggler"
@@ -47,6 +50,14 @@
                 >
               </li>
               <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/quienesSomos.html"
+                  >¿Quienes somos?</a
+                >
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./pages/precios.html">Precios</a>
               </li>
               <li class="nav-item">
@@ -60,30 +71,170 @@
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer class="bg-dark text-secondary py-4">
-      <div class="container">
-        <div class="row">
-          <h5 class="text-light" id="logo">
-            RollingBank <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"> </i><i class="bi bi-twitter-x"></i>
-          </h5>
+    <main>
+      <section
+        id="carouselBancoIndex"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/banner/bitcoin.jpg"
+              class="d-block w-100 imgCarouselIndex"
+              alt="bitcoin"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/banner/cajero.jpg"
+              class="d-block w-100 imgCarouselIndex"
+              alt="cajero"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/banner/dolar.jpg"
+              class="d-block w-100 imgCarouselIndex"
+              alt=".dolarucos"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselBancoIndex"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselBancoIndex"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </section>
 
-          <div class="col-12 col-md-6 col-lg-3 text-lg-start">
+      <section class="container-fluid row justify-content-center mt-5 cardsIndex">
+        <div
+          class="col-4 col-md-6 cardIndex shadow p-3 mb-5 bg-body rounded text-center ms-4 "
+        >
+          <i class="bi bi-hand-thumbs-up text-danger"></i>
+          <h4>Sin sorpresas</h4>
+          <p>Somos transparentes, no vas a encontrar letra chica.</p>
+        </div>
+        <div
+          class="col-4 col-md-6 shadow p-3 mb-5 bg-body rounded cardIndex ms-4 text-center "
+        >
+          <i class="bi bi-emoji-sunglasses text-primary"></i>
+          <h4>Aprobado</h4>
+          <p>Estamos autorizados y regulados por el Banco Central.</p>
+        </div>
+        <div
+          class="col-4 col-md-6 shadow p-3 mb-5 bg-body rounded cardIndex ms-4 text-center "
+        >
+          <i class="bi bi-currency-dollar text-success"></i>
+          <h4>Sin costos</h4>
+          <p>Toras tus operaciones diarias están incluidas.</p>
+        </div>
+      </section>
+
+      <section class="container-fluid cyberseguridadIndex row mt-3 justify-content-around mb-4">
+        <div class="imagenCyber col-lg-4 col-md-12 text-center text-lg-end">
+          <img src="./img/iphone-illustration-sec.png" alt="iphone" />
+        </div>
+        <article class="container row col-lg-8 col-md-12 mt-3 col-sm-12  justify-content-around">
+          <div class="col-12 ps-1 text-sm-center">
+            <h4>Tu seguridad como prioridad</h4>
+            <p>
+              Seguimos las mejores practicas en cyberseguridad sin complicarte
+              tu operación diaria
+            </p>
+          </div>
+
+          <div class="col-6 col-lg-6 sm-6 cardCyberseguridad col-sm-12">
+            <i class="bi bi-eye text-danger"></i>
+            <h4>Biometría</h4>
+            <p>
+              Nuestra tecnología te permite acceder a tu cuenta usando tu huella
+              digital o tu cara.
+            </p>
+          </div>
+          <div class="col-6 col-lg-6 col-sm-6 cardCyberseguridad col-sm-12 ">
+            <i class="bi bi-fingerprint text-primary"></i>
+            <h4>Segundo factor</h4>
+            <p>
+              Usamos un Token invisible para todas las operaciones que hagas.
+            </p>
+          </div>
+          <div class="col-6 col-lg-6 sm-6 cardCyberseguridad col-sm-12">
+            <i class="bi bi-puzzle text-info"></i>
+            <h4>Personal</h4>
+            <p>
+              Vas a poder ingresar desde un dispositivo a la vez a tu cuenta.
+            </p>
+          </div>
+          <div class="col-6 col-lg-6 sm-6 cardCyberseguridad col-sm-12">
+            <i class="bi bi-robot text-success"></i>
+            <h4>100% encriptado</h4>
+            <p>
+              Todas las transacciones son encriptadas para tu mayor seguridad.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="barraInferiorIndex bg-primary text-center text-white">
+        <article class="pt-5">
+          <h1>RollingBank te esta esperando</h1>
+          <p>
+            Bajá la app y viví una nueva experiencia. Empezá creando tu cuenta
+            sólo con tu DNI.
+          </p>
+        </article>
+        <div class="container d-flex justify-content-center pb-5">
+          <div class="csi mx-1">
+            <img src="./img/badge-apple-store.svg" alt="badge-apple-store" />
+          </div>
+          <div class="csi mx-1">
+            <img
+              src="./img/google-play-badge-bb.svg"
+              alt="google-play-badge-bb"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-secondary py-4">
+      <div class="container centrar">
+        <div class="row d-flex justify-content-between">
+          <div class="text-light" id="logo">
+            <h5>
+              RollingBank <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"> </i><i class="bi bi-twitter-x"></i>
+            </h5>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
             <h4>Navegación</h4>
             <ul class="list-unstyled">
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
+                <a href="./pages/quienesSomos.html" class="link-secondary"
                   >¿Quienes somos?</a
                 >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
+                <a href="./pages/precios.html" class="link-secondary"
                   >Precios</a
                 >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
+                <a href="./pages/seguridad.html" class="link-secondary"
                   >Seguridad</a
                 >
               </li>
@@ -97,7 +248,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 text-lg-start">
+          <div class="col-12 col-md-6 col-lg-3 centrar">
             <h4>Legales</h4>
             <ul class="list-unstyled">
               <li>
@@ -127,14 +278,22 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 text-lg-start" id="usuariosFin">
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex align-items-center"
+            id="usuariosFin"
+          >
             <img
               src="./img/usuariosfinancieros.png"
               alt="usuarios financieros"
             />
           </div>
+
           <div
             class="col-12 col-md-6 col-lg-3 text-lg-start d-flex flex-column align-content-between"
+
+          <div
+            class="col-12 col-md-6 col-lg-3 centrar d-flex flex-column align-content-between"
+
           >
             <h4>Unite</h4>
             <div id="imgApple">
