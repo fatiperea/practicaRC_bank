@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 .item {
@@ -14,25 +14,17 @@ body {
 .ofertas {
   display: flex;
   padding: 10px;
-  justify-content:space-between ;
+  justify-content: space-between;
   border-width: 0.5px;
-  border-style:solid ;
-  border-color: #D5DBDB ;
+  border-style: solid;
+  border-color: #d5dbdb;
 }
-
-
 
 #precioResaltado {
   background-color: #0d6efd;
   width: 25px;
   height: 50px;
-
+  font-size: 20px;
+  color: white;
 }
 
-
-
-@media (max-width: 767px) {
-  #tituloItem {
-    justify-content: center;
-  }
-}
