@@ -18,10 +18,11 @@ main {
 
 #logo {
   font-family: "Black Han Sans", Arial;
+  font-size: x-large;
 }
 
 #usuariosFin {
-  width: 235px;
+  width: 240px;
   height: 150px;
 }
 
@@ -30,11 +31,10 @@ main {
 }
 
 #imgApple {
-  width: 70px;
-  height: 70px;
+  width: 180px;
+  height: 90px;
 }
-
-#imgApple {
+#imgApple img{
   width: 100%;
 }
 .img1Seguridad {
@@ -53,15 +53,16 @@ main {
   .centrar {
     text-align: center;
   }
-}
 
-
-HEAD
 
   #imgApple{
-    width: 80px;  
-    height: 70px;
+    width: 250px;  
+    height: 100px;
+    margin: auto;
+    
   }
+}
+  
   
 .imgCarouselIndex {
   height: 500px;
