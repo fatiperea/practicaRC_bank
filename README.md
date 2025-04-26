@@ -1,4 +1,4 @@
-## Proyecto  - RollingCode School
+## Proyecto de práctica  - RollingCode School
 
 ### Maquetado de sitio web bancario (HTML5 - CSS3)
 
